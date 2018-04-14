@@ -17,5 +17,5 @@ Have fun, and happy hacking!
 If you would like to contribute to our documentation in any way (fixing
 typos, adding new docs, etc.), please fork the repo and make a new [Pull Request.][add-pr]
 
-[docs-link]: todo
+[docs-link]: https://uwb-acm.github.io/Hackathon-Docs/
 [add-pr]: https://github.com/UWB-ACM/Hackathon-Docs/pulls
