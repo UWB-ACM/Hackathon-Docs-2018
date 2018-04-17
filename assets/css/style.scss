@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+body {
+    background-color: #122232;
+}
+
+p
+{
+  color: white;
+}
+
+a
+{
+  color: white;
+  text-decoration: underline;
+  opacity: 0.8;
+}
