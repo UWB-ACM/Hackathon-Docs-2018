@@ -17,5 +17,13 @@ Have fun, and happy hacking!
 If you would like to contribute to our documentation in any way (fixing
 typos, adding new docs, etc.), please fork the repo and make a new [Pull Request.][add-pr]
 
+### Building the site locally
+
+[This article explains in-depth how to build the site locally.][build-pages-locally]
+Before submitting a pull request, you should test that your
+changes appear correct by building and validating locally.
+
+
 [docs-link]: https://uwb-acm.github.io/Hackathon-Docs/
 [add-pr]: https://github.com/UWB-ACM/Hackathon-Docs/pulls
+[build-pages-locally]: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
