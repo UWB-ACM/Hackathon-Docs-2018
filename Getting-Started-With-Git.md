@@ -23,7 +23,11 @@ have built in support for git version control tracking.
 In addition, if you are new to git or unfamiliar with the command
 line, [the GitHub Desktop GUI client is great for beginners.][github-desktop]
 
-`todo: add some actual getting started information here, or link to better examples of docs`
+# Getting Started
+
+You'll first want to install git. [Refer to the official documentation for instructions on how to install git on Windows, Linux or mac.][installing-git]
+
+`todo, add more content here`
 
 # Futher Reading
 
@@ -43,3 +47,4 @@ the command line, so may be advanced for beginners._
 [git-for-vs]: https://docs.microsoft.com/en-us/vsts/git/gitquickstart
 [github-desktop]: https://desktop.github.com/
 [git-intellij]: https://www.jetbrains.com/help/idea/using-git-integration.html
+[installing-git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
