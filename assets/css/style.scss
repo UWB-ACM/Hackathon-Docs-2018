@@ -1,0 +1,42 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+$background-color: #122232;
+$hover-color: rgba(#FFF, 0.8);
+$list-color: rgba(#FFF, 0.9);
+
+body {
+    background-color: $background-color;
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+  color: white;
+}
+
+a
+{
+  color: white;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+a:hover, a:focus
+{
+  font-weight: unset;
+  color: $hover-color;
+}
+
+a > small
+{
+  color: $hover-color;
+}
+
+ul, li, ol
+{
+  color: $list-color;
+  list-style-type: circle;
+}
