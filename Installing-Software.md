@@ -46,6 +46,7 @@ Yes, you can develop and use C# on Linux, with a few different options.
 - [Monodevelop][monodevelop], for working with the Mono framework.
 - [Jetbrains Rider (recommended)][rider], for working with Mono _and_ .NET Core frameworks.
   Free with [the JetBrains Student license][jetbrains-student].
+- [Visual Studio Code][vscode]. Free, and has support for C#. Not as fully-featured as the full Visual Studio though.
 - [.NET Core Framework][netcore]. You'll want to install this on your servers so you can run
 your C# applications.
 
@@ -54,6 +55,7 @@ your C# applications.
 [rider]: https://www.jetbrains.com/rider/
 [netcore]: https://www.microsoft.com/net/learn/get-started
 [jetbrains-student]: https://www.jetbrains.com/student/
+[vscode]: https://code.visualstudio.com/
 
 # Java
 
