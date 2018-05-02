@@ -26,7 +26,7 @@ to do much!
   - Some programming languages and tools require
   installation of large packages beforehand. During a
   time crunch, installing software is the last thing
-  you want to be doing.
+  you want to be doing. [Check this guide for a reference of what to install.][installing-software]
     - If it's been a while, try out a "Hello World",
     just to ensure your development environment works.
   - Signing up for online services like GitHub, AWS,
@@ -70,3 +70,4 @@ _Tailored more for MLH hackathons, but may still be useful for this event too._
 
 [hackathon-checklist]: https://medium.com/hackconcordia/hackathon-checklist-525cc675a83f
 [so-ur-new-to-hacking]: https://dev.to/kimcodes/so-youre-new-to-hackathons
+[installing-software]: test
