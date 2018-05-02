@@ -49,15 +49,38 @@ Yes, you can develop and use C# on Linux, with a few different options.
 - [.NET Core Framework][netcore]. You'll want to install this on your servers so you can run
 your C# applications.
 
-# Java
-
-`todo`
-
 [visual-studio-community]: https://www.visualstudio.com/vs/community/
 [monodevelop]: http://www.monodevelop.com/
 [rider]: https://www.jetbrains.com/rider/
 [netcore]: https://www.microsoft.com/net/learn/get-started
 [jetbrains-student]: https://www.jetbrains.com/student/
+
+# Java
+
+You should aim to use Java [JDK 8][java-jdk-8], although [JDK 10][java-jdk-10] is currently available.
+
+- [IntelliJ IDEA (recommended)][intellij-idea], fully-featured IDE.
+- [Eclipse Oxygen][eclipse-oxygen], fully-featured IDE.
+- [Gradle][gradle], build automation tool.
+
+Although **Optional**, these tools are recommended for any Java-based project.
+
+- [FindBugs][findbugs], static analysis tool for debugging.
+- [PMD][pmd], another static analysis tool for debugging.
+- [Checkstyle][checkstyle], static analysis tool to enforce a coding standard.
+- [JUnit][junit], test automation tool.
+
+[java-jdk-8]: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+[java-jdk-10]: http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html
+
+[intellij-idea]: https://www.jetbrains.com/idea/
+[eclipse-oxygen]: https://www.eclipse.org/downloads/
+[gradle]: https://gradle.org/
+
+[findbugs]: http://findbugs.sourceforge.net/
+[pmd]: https://pmd.github.io/
+[checkstyle]: http://checkstyle.sourceforge.net/
+[junit]: https://junit.org/junit5/
 
 # Misc
 
