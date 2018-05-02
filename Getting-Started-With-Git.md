@@ -60,7 +60,7 @@ documentation, and contributing to StackOverflow.
 [GitHub Guides][gh-guides] _GitHub provides many guides for using
 git, making use of their desktop client and website._
 
-[Git Getting Started][git-getting-stated] _The official getting
+[Git Getting Started][git-getting-started] _The official getting
 started guide provided by git. These all assume that you are using
 the command line, so may be advanced for beginners._
 
@@ -74,4 +74,4 @@ the command line, so may be advanced for beginners._
 [github-desktop]: https://desktop.github.com/
 [git-intellij]: https://www.jetbrains.com/help/idea/using-git-integration.html
 [installing-git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[rasica]: https://www.taniarascia.com/getting-started-with-git/
+[rascia]: https://www.taniarascia.com/getting-started-with-git/
