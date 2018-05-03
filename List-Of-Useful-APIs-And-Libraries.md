@@ -18,8 +18,12 @@ The Discord API has a list of community-made libraries,
 Some libraries of interest from this list are:
 
 - Discord.NET (C#) https://github.com/RogueException/Discord.Net
+  - Example: [Discord-CSharp-Example](https://github.com/UWB-ACM/Discord-CSharp-Example)
 - discord.js https://github.com/discordjs/discord.js
 - discord.py https://github.com/Rapptz/discord.py
+  - Example: [Discord-Python-Example](https://github.com/UWB-ACM/Discord-Python-Example)
+- Discord4J (Java) https://github.com/Discord4J/Discord4J
+  - Example: [DiscordBot_Java](https://github.com/UWB-ACM/DiscordBot_Java)
 
 **Twitter**
 
@@ -31,6 +35,7 @@ Libraries of interest from this list are:
 
 - hbc (Java) https://github.com/twitter/hbc
 - tweepy (Python) https://github.com/tweepy/tweepy
+  - Example: [Twitter-Python-Example](https://github.com/UWB-ACM/Twitter-Python-Example)
 
 **Spotify**
 
@@ -41,6 +46,7 @@ API Documentation: https://beta.developer.spotify.com/documentation/web-api/
 Libraries of interest from this list are:
 
 - spotipy (python) https://github.com/plamere/spotipy
+  - Example: [Discord-Python-Example](https://github.com/UWB-ACM/Discord-Python-Example)
 
 **Google**
 
