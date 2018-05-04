@@ -239,6 +239,8 @@ root/Administrator.
 Once the code base is downloaded, and the prerequisites are installed,
 the bot is very nearly ready to go.
 
+## Configuration
+
 In order for the bot to connect online, it'll need a
 **Bot Token**. This is effectively a user name and a password for the bot
 so that it can log in. You should work with this token very carefully
@@ -246,7 +248,37 @@ to ensure that it doesn't get exposed.
 [Take a look at the best practices guide for tips how to manage Bot Tokens.][token-practices]
 
 This bot stores the bot token in a configuration file in the same
-directory as the bot.
+directory as the bot. Let's do this.
+
+Create a new file in the same directory as the bot called `config.ini`.
+
+Copy the following text into that file:
+
+```ini
+[Configuration]
+connection_token=PUT_YOUR_BOT_TOKEN_HERE
+```
+
+Copy your Bot Token from step 2, without quotes, into the file.
+
+## Running
+
+Okay, once you've got everything set up, you should be good to go.
+
+Start the bot using the following command.
+
+```bash
+python3 main.py
+```
+
+You should see some text appear in the console. In a few seconds
+your bot should appear online.
+
+Try sending your bot the message `>>ping` in your test server.
+If all goes well, the bot should reply back with "Pong!".
+
+**If you run into issues, please document them as an issue
+for the GitHub repo, so that we can add possible solutions here.**
 
 [token-practices]: Token-Management-Common-Practices.md
 
