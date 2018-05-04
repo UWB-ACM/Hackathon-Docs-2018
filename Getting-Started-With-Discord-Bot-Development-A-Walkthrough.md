@@ -151,8 +151,11 @@ Now, you should see the bot details section. This contains your bot's client
 ID and Bot Token. **Do not reveal this token publicly!**
 [Click here for an explanation why.][dont-leak-tokens]
 
+![Bot details section][bot_details]
+
 **If you accidentally leak your token**, go back here to generate a new
-one by clicking on 'Generate a new token?'.
+one by clicking on 'Generate a new token?'. Don't worry, the one here
+is already invalidated.
 
 Now, scroll up and find the 'Generate OAuth2 URL'. You'll need this to
 invite your bot to your server.
