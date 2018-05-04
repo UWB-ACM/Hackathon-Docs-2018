@@ -236,6 +236,19 @@ root/Administrator.
 
 # Step 3. Get the bot online
 
+Once the code base is downloaded, and the prerequisites are installed,
+the bot is very nearly ready to go.
+
+In order for the bot to connect online, it'll need a
+**Bot Token**. This is effectively a user name and a password for the bot
+so that it can log in. You should work with this token very carefully
+to ensure that it doesn't get exposed.
+[Take a look at the best practices guide for tips how to manage Bot Tokens.][token-practices]
+
+This bot stores the bot token in a configuration file in the same
+directory as the bot.
+
+[token-practices]: Token-Management-Common-Practices.md
 
 # Appendix - What is the bot doing?
 
