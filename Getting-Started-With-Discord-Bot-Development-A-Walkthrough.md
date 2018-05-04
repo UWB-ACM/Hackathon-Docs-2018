@@ -10,9 +10,10 @@ This guide walks through the steps for setting up a Discord bot
 that is written in Python, and running on Linux (or Windows with WSL). Many
 of the key concepts are the same for different platforms and languages.
 You don't have to know Python, but it will help for this example.
+Also, having Git installed is _highly_ recommended.
 
 There are also some different ways that the Discord API can be used, but this
-document will
+document will only deal with 'Bot Users'.
 
 # How Bots (and Users) Work
 
