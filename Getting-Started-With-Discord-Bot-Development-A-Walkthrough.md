@@ -11,6 +11,9 @@ that is written in Python, and running on Linux (or Windows with WSL). Many
 of the key concepts are the same for different platforms and languages.
 You don't have to know Python, but it will help for this example.
 
+There are also some different ways that the Discord API can be used, but this
+document will
+
 # How Bots (and Users) Work
 
 In the case of Discord and many other services, bots interact with the Discord
@@ -28,9 +31,21 @@ across all of their devices. When any of the clients connect and
 communicate to the Discord servers, they are going through this API
 which is responsible for handling the interaction between users.
 This way, the client isn't responsible for handling any complex operations,
-only the server has to.
+only the server does.
+
+![Relationship between different types of clients and the Discord API][dapi-diagram]
+
+Bots are just another type of client, according to Discord. They do have
+their own set of rules and restrictions, but they interface with the API
+through the same methods. All of the endpoints and operations that can be
+done with the API are listed in the documentation, if you want to see what
+is happening 'under the hood'. You can also view the network transactions
+in the 'Network' tab in your browser.
 
 
+
+
+[dapi-diagram]: img/discord_api_diagram.png
 
 # Step 0. Prerequisites
 
