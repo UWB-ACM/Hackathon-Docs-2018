@@ -35,17 +35,87 @@ only the server does.
 
 ![Relationship between different types of clients and the Discord API][dapi-diagram]
 
-Bots are just another type of client, according to Discord. They do have
+Bots are just another type of client to Discord. They do have
 their own set of rules and restrictions, but they interface with the API
 through the same methods. All of the endpoints and operations that can be
 done with the API are listed in the documentation, if you want to see what
 is happening 'under the hood'. You can also view the network transactions
 in the 'Network' tab in your browser.
 
-
-
+Bots do have some restrictions applied to them, though. They can do
+some set of things differently than normal users, and cannot do some things
+normal users can.
 
 [dapi-diagram]: img/discord_api_diagram.png
+
+# API vs Library
+
+When you are looking to integrate another service in your application, you
+may hear the terms 'API' and 'Library' thrown around interchangeably.
+In the context of this documentation, we will use the following definitions:
+
+- **API / Application Programming Interface**: The interface that
+  is used to directly communicate with a service or application.
+  In the case of Discord, Twitter, Spotify, and many others,
+  these are implemented using
+  [HTML REST communications.][spring-understanding-rest]
+  The HTML protocol is just text, and works with nearly every language on
+  nearly every platform.
+
+- **Library**: Any package or assembly of code which provides some set of
+  utility or functionality to the library user. There are many types of
+  libraries that can do any number of functions.
+  For these examples, 'Libraries' will refer to the software that
+  handles the communication with an API for you.
+  Libraries are written in a specific language and only work on a certain
+  set of platforms.
+
+## Why should I use a library?
+
+The biggest difference between APIs and Libraries for developers (you)
+is the functionality and the ease of use that you get out of it.
+
+Let's use an example.
+
+**API**
+
+Here's what I have to send to the API to send a message:
+
+```
+POST https://discordapp.com/api/v6/channels/123412341234/messages
+Authorization: YourUserTokenGoesHere
+Body:
+{
+  'content': 'this is my message',
+  'tts': false  
+}
+```
+By the way,
+[Postman][postman] and `curl` are both great ways to test out APIs.
+
+I'd have to figure out the best way to send that data in whichever
+language I work with, and handle it all myself.
+
+Or...
+
+**Library**
+
+There are tons of libraries for the Discord API. In this example we will
+use [discord.py][dpy] for Python, but you can really use whatever language you
+want. Here's the equivalent process using that library.
+
+```python
+channel = client.get_channel(123412341234)
+await client.send_message(channel, 'This is my message‽')
+```
+
+Using a library is a much higher-level and easier approach to interfacing
+with APIs. They usually do a lot of the work for you, and can add
+features on top.
+
+[postman]: https://www.getpostman.com/
+[spring-understanding-rest]: https://spring.io/understanding/REST
+[dpy]: https://github.com/Rapptz/discord.py
 
 # Step 0. Prerequisites
 
