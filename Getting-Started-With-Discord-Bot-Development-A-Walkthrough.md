@@ -129,5 +129,71 @@ service itself. It's hard to develop for services that you don't understand.
 (You'll also want to be logged in.) This documentation describes all of their
 API features, but don't worry about those right now.
 
+Navigate to the 'My Apps' page in the top left of the documentation page.
+Click on the 'new app' button.
+
+![Discord developer apps dashboard 'new app' button.][new_app]
+
+Fill out the 'create app' window.
+
+![Discord create app window][create_app]
+
+If all goes well, you should see a screen like this:
+
+![Discord app confirmation screen][app_confirmation]
+
+Discord supports multiple types of applications, but all we carry about
+are 'Bot Users'. Scroll down and click on the 'Create a Bot User' button.
+
+![Creating a bot user button.][bot_user]
+
+Now, you should see the bot details section. This contains your bot's client
+ID and Bot Token. **Do not reveal this token publicly!**
+[Click here for an explanation why.][dont-leak-tokens]
+
+**If you accidentally leak your token**, go back here to generate a new
+one by clicking on 'Generate a new token?'.
+
+Now, scroll up and find the 'Generate OAuth2 URL'. You'll need this to
+invite your bot to your server.
+
+![Generate OAuth2 URL button.][invite_link]
+
+Copy the URL that is generated from this tool, with the default permissions
+for a bot. Paste it into a new tab. You'll see a prompt to add it to one
+of your servers. Create a testing server to use, if you haven't already,
+then refresh the page and add the bot there.
+
+**When developing Discord bots, it's really useful to have a testing server
+with just you and the bot in it.** You can only add bots to servers that you
+have the 'Manage Messages' permission enabled.
+
+If all goes well, you should see that the bot has joined your server.
+It will be offline, and have a blue `BOT` tag next to it's name.
+
+![Bot that has joined a test server.][join_server]
+
+[new_app]: img/discord_new_app.png
+[create_app]: img/discord_create_app.png
+[app_confirmation]: img/discord_app_details.png
+[bot_user]: img/discord_bot_user.png
+[bot_details]: img/discord_bot_details.png
+[invite_link]: img/discord_invite_link_generator.png
+[join_server]: img/discord_join_server.png
+[dont-leak-tokens]: Token-Management-Common-Practices.md
+
+# Step 2. Set up your Python environment
+
+# Step 3. Get the bot online
+
+# Where to go now?
+
+After you have completed all these steps, you should have a functional
+Discord bot that can respond to a basic command. You can build on the
+functionality given to you by the library and the barebones example
+to develop more complex behavior.
+
+Happy hacking!
+
 [discord-docs]: https://discordapp.com/developers/docs/intro
 [wikipedia-api]: https://en.wikipedia.org/wiki/Application_programming_interface
