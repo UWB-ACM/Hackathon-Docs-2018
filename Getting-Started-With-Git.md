@@ -45,12 +45,12 @@ getting started with commits, branching, and merging.
 [Day 2 Slides][day-2]. These slides cover the basics of GitHub, Markdown,
 forking, pull requests, and issues.
 
-Day 3 Slides `link missing`. These slides cover the basics of continuous integration,
+[Day 3 Slides][day-3]. These slides cover the basics of continuous integration,
 documentation, and contributing to StackOverflow.
 
 [day-1]: https://docs.google.com/presentation/d/1iwogVXoYHnc_Q4--SZXgwT9BWttvn4aG1aLWdHh1lgA/edit?usp=sharing
 [day-2]: https://docs.google.com/presentation/d/1RaZHFilgU77tvQ19KO6l04ZpV0wk8odov-J1JIGbBPM/edit#slide=id.p
-[day-3]: missing
+[day-3]: https://goo.gl/gJwAHm
 
 [cnishina]: https://github.com/cnishina
 [whiteboarddev]: https://github.com/WhiteBoardDev
