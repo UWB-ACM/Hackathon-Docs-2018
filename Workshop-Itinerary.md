@@ -1,5 +1,5 @@
 ---
-title: Workshop Itineraries
+title: Workshop Itinerary
 layout: topic
 categories: itinerary
 ---
