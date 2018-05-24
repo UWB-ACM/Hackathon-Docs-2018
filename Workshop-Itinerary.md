@@ -16,7 +16,7 @@ workshops are optional, but highly recommended.
 
 The GrayHats bot workshop will be two parts.
 
-The first part is a discord bot that focuses on the reconnaissance of domains.
+The first part is a Discord bot that focuses on the reconnaissance of domains and servers.
 The bot provides functionality to determine the domain owner, location, server info, and checks if it's up.
 Some important concepts utilized by the bot are asynchronous I/O for improved responsiveness, interaction with JSON apis, and utilizing external utilities in a safe manner.
 
