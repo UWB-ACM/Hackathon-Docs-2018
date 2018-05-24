@@ -8,11 +8,13 @@ Throughout the ACM UWB Hackathon, there will be several
 workshops put on by your favorite school clubs! Attending these
 workshops are optional, but highly recommended.
 
-# GrayHats Workshop
+## GrayHats Workshop
 
 12:45 :: North Creek Events Center, UWB :: May 25th
 
-[GrayHat Workshop Materials][grayhats-workshop]
+ - [GrayHats Network Reconnaissance Workshop Materials][grayhats-slack]
+
+ - [GrayHats Slack C2 Workshop Materials][grayhats-slack]
 
 The GrayHats bot workshop will be two parts.
 
@@ -22,16 +24,17 @@ Some important concepts utilized by the bot are asynchronous I/O for improved re
 
 The second part is a slack bot used to remotely control a compromised computer. While having a focus on cybersecurity, both bots use concepts that can be applied anywhere.
 
-# Blockchain and Cryptocurrency Workshop
+## Blockchain and Cryptocurrency Workshop
 
 14:30 :: North Creek Events Center, UWB :: May 25th
 
-[Blockchain and Cryptocurrency Workshop Materials][block-workshop]
+ - [Blockchain and Cryptocurrency Workshop Materials][block-workshop]
 
 The Cryptocurrency & Blockchain Club workshop will go over the basics of blockchain, Ethereum, and the Solidity programming language.
 Participants will learn what a blockchain is and why it’s useful.
 They can then build an interactive lottery smart contract.
 The club looks forward to giving people an opportunity to learn about blockchain!
 
-[grayhats-workshop]: https://github.com/WiredTurtle/Slacked
+[grayhats-slack]: https://github.com/WiredTurtle/Slacked
+[grayhats-recon]: https://github.com/dirk37/Reconbot
 [block-workshop]: https://github.com/Marktc1993/Hackathon-Blockchain-Tutorial

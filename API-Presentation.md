@@ -4,35 +4,31 @@ layout: topic
 categories: resource
 ---
 
-[Download Presentation][pdf-presentation]
+The purpose of the API Introduciton Presentation is to familiarize participants
+with the concepts of APIs, Libraries, and Bot Deployment. It also introduces
+what materials are provided, by the ACM, for UWB Hacks.
 
-Throughout the ACM UWB Hackathon, there will be several
-workshops put on by your favorite school clubs! Attending these
-workshops are optional, but highly recommended.
+### Download Presentation
 
-# GrayHats Workshop
+To download the presentation, follow this link and download the PDF. 
+Alternatively, right-click and select "Save link as...".
 
-12:45 :: North Creek Events Center, UWB :: May 25th
+ - [Download Presentation][pdf-presentation]
 
-[GrayHat Workshop Materials][grayhats-workshop]
+### Presentation Dependencies
 
-The GrayHats bot workshop will be two parts.
+To follow along with this presentation, one must have `git` and `Python3.X` insstalled.
+`Python3.X` refers to any version of Python `>=3.5`.
 
-The first part is a Discord bot that focuses on the reconnaissance of domains and servers.
-The bot provides functionality to determine the domain owner, location, server info, and checks if it's up.
-Some important concepts utilized by the bot are asynchronous I/O for improved responsiveness, interaction with JSON apis, and utilizing external utilities in a safe manner.
+To install `git`, follow the guide here:
 
-The second part is a slack bot used to remotely control a compromised computer. While having a focus on cybersecurity, both bots use concepts that can be applied anywhere.
+  - [Git Installtion Guide][git-install]
 
-# Blockchain and Cryptocurrency Workshop
+To install `Python3.X`, follow the guide here:
 
-14:30 :: North Creek Events Center, UWB :: May 25th
+  - [Python3 Installation Guide][python-install]
 
-[Blockchain and Cryptocurrency Workshop Materials][block-workshop]
-
-The Cryptocurrency & Blockchain Club workshop will go over the basics of blockchain, Ethereum, and the Solidity programming language.
-Participants will learn what a blockchain is and why it’s useful.
-They can then build an interactive lottery smart contract.
-The club looks forward to giving people an opportunity to learn about blockchain!
 
 [pdf-presentation]: /source/ACM_API_Introduction.pdf
+[git-install]: /Getting-Started-With-Git.html
+[python-install]: /Installing-Software.html
