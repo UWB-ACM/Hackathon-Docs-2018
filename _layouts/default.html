@@ -40,6 +40,16 @@
 
         <br />
 
+        <h2>Resources</h2>
+        {% for page in site.pages %}
+          {% if page.categories contains 'resource' %}
+            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+            <br />
+          {% endif %}
+        {% endfor %}
+
+        <br />
+
         <h2>Guides</h2>
         {% for page in site.pages %}
           {% if page.categories contains 'guide' %}
