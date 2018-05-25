@@ -22,7 +22,7 @@ To follow along with this presentation, one must have `git` and `Python3.X` inss
 
 To install `git`, follow the guide here:
 
-  - [Git Installtion Guide][git-install]
+  - [Git Installation Guide][git-install]
 
 To install `Python3.X`, follow the guide here:
 
@@ -30,5 +30,5 @@ To install `Python3.X`, follow the guide here:
 
 
 [pdf-presentation]: /source/ACM_API_Introduction.pdf
-[git-install]: /Getting-Started-With-Git.html
-[python-install]: /Installing-Software.html
+[git-install]: {{base-url}}/Getting-Started-With-Git.html
+[python-install]: {{base-url}}/Installing-Software.html
