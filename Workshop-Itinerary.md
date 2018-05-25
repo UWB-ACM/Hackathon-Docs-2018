@@ -12,7 +12,7 @@ workshops are optional, but highly recommended.
 
 12:45 :: North Creek Events Center, UWB :: May 25th
 
- - [GrayHats Network Reconnaissance Workshop Materials][grayhats-slack]
+ - [GrayHats Network Reconnaissance Workshop Materials][grayhats-recon]
 
  - [GrayHats Slack C2 Workshop Materials][grayhats-slack]
 
