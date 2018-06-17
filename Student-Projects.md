@@ -20,7 +20,35 @@ goes down, users' progress will not be lost.
 
 ![Discatchi][img-discatchi]
 
+Made by: Corey Croswaite, Douglas Winegarden, and Sam Xiao
+
+## Grammar Bot
+
+ - [Grammar Bot Repository][grammar-bot]
+
+The bot has two features:
+First, if you type: "thesaurus look" or any word in the place of "look", it will fetch the synonyms for you.
+Second: It critiques every grammar mistake you make (in a very sassy way). See the screen shots below
+for examples! It only catches a few types of grammatical errors in it's current state, but those errors are
+some of the most common ones.
+
+Here are some screen shots:
+
+![Grammer-shot-1][img-grammar-1]
+
+![Grammer-shot-2][img-grammar-2]
+
+![Grammer-shot-3][img-grammar-3]
+
+![Grammer-shot-4][img-grammar-4]
+
 
 [img-discatchi]: /source/Discatchi.png
 
+[img-grammar-1]: /source/grammar-1.png
+[img-grammar-2]: /source/grammar-2.png
+[img-grammar-3]: /source/grammar-3.png
+[img-grammar-4]: /source/grammar-4.png
+
 [discatchi-bot]: https://github.com/DougWinegarden/Discord-Python-Example.git
+[grammar-bot]: https://github.com/LinuxKid21/Discord-Grammar-Nazi
