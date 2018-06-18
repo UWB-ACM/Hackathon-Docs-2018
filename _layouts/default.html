@@ -30,6 +30,16 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
+        <h2>Student Projects</h2>
+        {% for page in site.pages %}
+          {% if page.categories contains 'projects' %}
+            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+            <br />
+          {% endif %}
+        {% endfor %}
+
+        <br />
+
         <h2>Itineraries</h2>
         {% for page in site.pages %}
           {% if page.categories contains 'itinerary' %}
