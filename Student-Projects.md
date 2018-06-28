@@ -9,6 +9,17 @@ the wonderful work that was done during the sprint.
 
 Projects were submitted to us via email and are listed here in alphabetical order.
 
+## Calendar Bot
+
+- [Calendar Bot Repository][calendar-bot]
+
+Calendar Bot is a Discord bot that downloads events from an online calendar
+and provides it's users an interface for viewing when those events occur.
+The bot allows for multiple calendars to be used, all through
+a simple chat command interface.
+
+Built by [Mark Frankle](https://github.com/MarkFrankle).
+
 ## Distachi Bot
 
  - [Discatchi Bot Repository][discatchi-bot]
@@ -67,3 +78,4 @@ another player ... `challenge [username] [rock|paper|scissors|dynamite]`.
 [discatchi-bot]: https://github.com/DougWinegarden/Discord-Python-Example.git
 [grammar-bot]: https://github.com/LinuxKid21/Discord-Grammar-Nazi
 [rps-bot]: https://github.com/ScienceGal8/Discord-Python-Example/tree/RPSBot
+[calendar-bot]: https://github.com/MarkFrankle/Discord-Calendar-Bot
